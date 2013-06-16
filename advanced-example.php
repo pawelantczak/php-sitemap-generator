@@ -34,7 +34,7 @@
             array("http://your.app.com/mainpage1",          date('c'),  'daily',    '0.5'),
             array("http://your.app.com/mainpage2",          date('c'),  'daily'),
             array("http://your.app.com/mainpage3",          date('c')),
-            array("http://your.app.com/maonpage4"));
+            array("http://your.app.com/mainpage4"));
 
         // add many URLs at one time
         $sitemap->addUrls($urls);
