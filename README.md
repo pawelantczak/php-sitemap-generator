@@ -8,3 +8,6 @@ It can build a sitemap file from a list of URLs. The URLs may have attached the 
 The class may also update the site robots.txt file with the sitemap address.
 
 When the sitemap is updated, the class can also notify search engines like Google, Bing, Yahoo and Ask.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pawelantczak/php-sitemap-generator/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
