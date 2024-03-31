@@ -17,14 +17,14 @@
 
         // add urls
         $sitemap->addUrl($url,                date('c'),  'daily',    '1');
-        $sitemap->addUrl($url."/page1",          date('c'),  'daily',    '0.5');
-        $sitemap->addUrl($url."/page2",          date('c'),  'daily');
-        $sitemap->addUrl($url."/page3",          date('c'));
-        $sitemap->addUrl($url."/page4");
-        $sitemap->addUrl($url."/page/subpage1",  date('c'),  'daily',    '0.4');
-        $sitemap->addUrl($url."/page/subpage2",  date('c'),  'daily');
-        $sitemap->addUrl($url."/page/subpage3",  date('c'));
-        $sitemap->addUrl($url."/page/subpage4");
+        $sitemap->addUrl($url."page1",          date('c'),  'daily',    '0.5');
+        $sitemap->addUrl($url."page2",          date('c'),  'daily');
+        $sitemap->addUrl($url."page3",          date('c'));
+        $sitemap->addUrl($url."page4");
+        $sitemap->addUrl($url."page/subpage1",  date('c'),  'daily',    '0.4');
+        $sitemap->addUrl($url."page/subpage2",  date('c'),  'daily');
+        $sitemap->addUrl($url."page/subpage3",  date('c'));
+        $sitemap->addUrl($url."page/subpage4");
 
         // create sitemap
         $sitemap->createSitemap();
